@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./Assests/pexels-maxyne-barcel-10402282\ 1.png);
+    background-size: cover;
+    background-blend-mode: darken;
+    justify-content: center;
+    align-items: center; 
+    justify-content: space-evenly;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.navbar{
+display: flex;
+justify-content: center;
+justify-items: center;
+justify-content: space-around;
+margin-top: 30px;
+}
+.logo img{
+    /* padding: 10px; */
+}
+.navbar div ul{
+    color: #FFC233;
+    display: flex;
+    list-style: none;
+    gap: 70px;
+}
+.navbar div ul a{
+    
+    font-size: 50px;
+    font-weight: 600;
+    align-items: center;   
+}
+.button{
+    padding: 20px;
+}
+.button button{
+    background-color: #FF515F;
+    padding: 10px 35px ;
+    color: white;
+    font-weight: 800;
+    border-radius: 5px;
+}
+.main{
+    align-items: center;
+    /* border: 2px solid black; */
+    justify-content: center;
+    padding-left: 330px;
+    padding-top: 50px;
+    
+}
+    
+.main h1{
+    font-size: 100px;
+    justify-content: center;
+    align-items: center;
+    color: #FFC233;
+}
+.main button{
+    background-color: #FF515F;
+    padding: 10px 40px ;
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 270px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.footer{
+    justify-content: end;
+    justify-items: end;
+    align-items: center;
+    padding-left: 1230px;
+    
+}
+.footer img{
+    width: 95px;
+    
+}
